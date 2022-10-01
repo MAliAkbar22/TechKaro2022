@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: open sans;
+    font-size: 15px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+    line-height: 70px;
+    background: white;
+}
+
+.logo{
+    float: left;
+}
+
+.menu{
+
+    float: right;
+}
+
+.menu li{
+
+    float: left;
+    width: 120px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    list-style: none;
+}
+
+.menu li a{
+    color: gray;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background: white;
+}
+
+.menu li a:hover{
+    color: red;
+}
+
+.section{
+    height: 735px;
+    background-image: url(bg.png);
+}
+
+.section h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 3.46666666667em;
+}
+
+.learns{
+    margin-top: 430px;
+    display: inline-block;
+    padding: 20px 55px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 400;
+    border-radius: 3px;
+   border-color: white;
+    -webkit-border-radius: 3px;
+    background-color: transparent;
+    color: white;
+}
+
+.buy{
+    margin-top: 430px;
+    display: inline-block;
+    padding: 20px 55px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 400;
+    border-radius: 3px;
+    border-color: transparent;
+    -webkit-border-radius: 3px;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.teamsection{
+    text-align: center;
+    padding: 50px 0 30px;
+    float: left;
+    zoom: 1;
+    width: 98%;
+
+}
+
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:65%;
+    font-size: 34px;
+    padding: 0 14px;
+
+}
+
+.section h1{
+    text-align: center;
+}
+
+.team li{
+
+    float: left;
+    text-align: center;
+    padding: 50px 0 30px;
+    list-style: none;
+}
+
+.name h4{
+    margin-bottom: 6px;
+}
+
+h4{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+.team li h6{
+    color: #424242;
+}
+
+.team li p{
+    color: gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #060606;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.17em;
+    margin: 0 0 20px;
+}
+
+.border {
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #060606;
+    margin: 0 auto;
+}

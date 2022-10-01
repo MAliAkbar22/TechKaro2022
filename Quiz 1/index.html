@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz 1 - Home Page</title>
+
+
+    <style>
+        .navigation-bar {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            border: black;
+            border-style: solid;
+        }
+        .logo {
+            display: inline-block;
+            vertical-align: top;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            margin-top: 0px;
+        }
+        .navigation-bar > a {
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: x-large;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 20px;
+            height: 80px;
+            line-height: 80px;
+        }
+
+        .posts{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            border: black;
+            border-style: solid;
+        }
+        
+        .img1 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            border: black;
+            border-style: solid;
+        }
+        
+        .img2 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            border: black;
+            border-style: solid;            
+        }
+
+        .addblog{
+            background-color: rgb(255, 255, 255);
+            border: black;
+            border-style: solid;
+        }
+
+        .form{
+            display: inline-block;
+            text-align: center;
+            border: black;
+            border-style: solid;
+            border-left: -29;
+            width: 50%;
+            height: 50%;
+            display:inline-block;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navigation-bar">
+        <img class="logo" src="logo.png" alt="Logo">
+        &emsp;&emsp;
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    <br>
+
+    <div class="posts">
+    <div class="blog1">
+        <h1><span style="float: left; margin-left: 20px;"><u>Blogs</u></span></h1>
+        <h2><span style="float: right; margin-right: 20px;">12/10/2022</span></h2>
+        <br><br>
+        <p style="margin-left: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis dui non tristique imperdiet. Donec tempus, nulla et convallis congue, dolor sem mollis augue, at placerat massa enim sed mi. Sed vel tortor eu lacus viverra tempor. Integer eleifend a urna vitae fringilla. Nullam id ullamcorper magna. Sed finibus sapien eu urna suscipit, id ullamcorper erat rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eleifend vel velit ac efficitur. Praesent quis dui malesuada velit feugiat laoreet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis dui non tristique imperdiet. Donec tempus, nulla et convallis congue, dolor sem mollis augue, at placerat massa enim sed mi. Sed vel tortor eu lacus viverra tempor. Integer eleifend a urna vitae fringilla. Nullam id ullamcorper magna. Sed finibus sapien eu urna suscipit, id ullamcorper erat rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eleifend vel velit ac efficitur. Praesent quis dui malesuada velit feugiat laoreet.</p>
+        <img class="img1" src="post.jpg" alt="">
+    </div>
+
+    <br><br><br>
+
+    <div class="blog2">
+        <h1><span style="float: left; margin-left: 20px;"><u>Blogs</u></span></h1>
+        <h2><span style="float: right; margin-right: 20px;">15/09/2020</span></h2>
+        <br><br>
+        <p style="margin-left: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis dui non tristique imperdiet. Donec tempus, nulla et convallis congue, dolor sem mollis augue, at placerat massa enim sed mi. Sed vel tortor eu lacus viverra tempor. Integer eleifend a urna vitae fringilla. Nullam id ullamcorper magna. Sed finibus sapien eu urna suscipit, id ullamcorper erat rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eleifend vel velit ac efficitur. Praesent quis dui malesuada velit feugiat laoreet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis dui non tristique imperdiet. Donec tempus, nulla et convallis congue, dolor sem mollis augue, at placerat massa enim sed mi. Sed vel tortor eu lacus viverra tempor. Integer eleifend a urna vitae fringilla. Nullam id ullamcorper magna. Sed finibus sapien eu urna suscipit, id ullamcorper erat rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eleifend vel velit ac efficitur. Praesent quis dui malesuada velit feugiat laoreet.</p>
+        <img class="img2" src="post.jpg" alt="">
+        <br>
+    </div>
+    </div>
+
+    <br>
+
+    <div class="addblog">
+        <h1><span style="float: left; margin-left: 20px;"><u>Add Blog</u></span></h1>
+        <br><br><br>
+
+        <center>
+            <form class="form">
+                <br>
+
+                <div style="display:flex; margin-bottom: 7px;">
+                  <label for="Title" style="width: 35%">Title
+                </label>
+                  <input id="name" style="width: 40%">
+                </div>
+
+                <div style="display:flex; margin-bottom: 7px;">
+                  <label for="Content" style="width: 35%">Content</label>
+                  <input type="text" style="width: 40%" id="Content">
+                </div>
+
+                <div style="display:flex; margin-bottom: 7px;">
+                  <label for="dob" style="width: 35%">Date
+                </label>
+                  <input id="date" type="date" style="width: 40%">
+                </div>
+            
+                <div style="display:flex; margin-bottom: 7px;">
+                  <label for="Image" style="width: 35%">Image</label>
+                  <input type="file" id="Image" style="width: 40%">
+                </div>
+
+                <br>
+              </form>          
+        </center>
+        <br><br>        
+        </form>   
+    </div>
+
+</body>
+</html>

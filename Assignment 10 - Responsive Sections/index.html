@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Assignment 10</title>
+<style type="text/css">
+body{
+  margin: 0;
+  font-family: 'Sora', sans-serif;
+} 
+
+.wrapper{
+  min-height: 100vh;
+  background: #111e36;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+	margin-top: 50px;
+  height: 250px;
+  background: #111e36;
+  color: white;
+  text-align: center;
+  margin-left: 300px;
+  margin-Right: 300px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  background: #111e36;
+  color: white; 
+}
+
+.columns{
+  display: flex;
+  flex:1;
+}
+
+.main{
+	width: 33%;
+	height: 50%;
+  order: 2;
+  background: #111e36;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 200px;
+  transition: box-shadow .3s;
+  border-radius: 5px;
+  border: 1px solid #172a4b;
+  background: #172a4b;
+  padding: 50px;
+  overflow:hidden;
+  text-align: center;
+}
+
+.main:hover {
+  box-shadow: 0 0 11px white; 
+}
+
+.sidebar-first{
+  width: 33%;
+  height: 50%;
+  background: #111e36;
+  order: 1;
+  margin-left: 15px;
+  margin-bottom: 200px;
+  transition: box-shadow .3s;
+  border-radius: 5px;
+  border: 1px solid #172a4b;
+  background: #172a4b;
+  padding: 50px;
+  text-align: center;
+}
+
+.sidebar-first:hover {
+  box-shadow: 0 0 11px white; 
+}
+
+
+.sidebar-second{ 
+  width: 33%;
+  height: 50%;
+  order: 3;
+  background: #111e36;
+  margin-right: 15px;
+  margin-bottom: 200px;
+  transition: box-shadow .3s;
+  border-radius: 5px;
+  border: 1px solid #172a4b;
+  background: #172a4b;
+  padding: 50px;
+  text-align: center;
+}
+
+.sidebar-second:hover {
+  box-shadow: 0 0 11px white; 
+}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+  <header class="header">
+  		<h4 style="color: skyblue;">Blockchain Platform</h4>
+  		<h2>Blockchain Solution</h2>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+  </header>
+  <section class="content">
+    <div class="columns">
+      <main class="main">
+      	<i class="fa fa-bitcoin" style="font-size:36px"></i>
+  		<h2>Safe and Secure</h2>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      	
+      </main>
+      <aside class="sidebar-first">
+      	<i class="fa fa-bitcoin" style="font-size:36px"></i>
+  		<h2>Good Investment</h2>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>         	
+      </aside>
+      <aside class="sidebar-second">
+      	<i class="fa fa-bitcoin" style="font-size:36px"></i>
+  		<h2>Integrated App</h2>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>         	
+      </aside>
+    </div>
+  </section>
+</div>
+</body>
+</html>
